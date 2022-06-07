@@ -1,0 +1,61 @@
+body, html{
+    padding:0;
+    margin: 0;
+}
+
+body{
+background: #024959;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+#Cuestionario {
+    background: #F2AE30;
+    width: 30rem;
+    padding: 4rem;
+    text-align: center;
+}
+
+h1 {
+    color: #593E25;
+    font-size: 3rem;
+    text-align: center;
+    padding: 2px 0;
+
+}
+h3 {
+    color: #593E25;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2px 0;
+
+}
+
+#Pregunta {
+    font-size: 1.7rem;
+    color: #593E25;
+}
+
+.button {
+    background-color: #593E25;
+    color: #F2AE30;
+    width: 250px;
+    font-size: 20px;
+    border-radius: .3rem;
+    padding: 10px 20px;
+    margin: 10px 40px 10px;
+    outline: 0;
+
+}
+
+.button:hover {
+    cursor: pointer;
+    background: #024959;
+}
+
+#progreso{
+    font-size: 20px;
+    color: #593E25;
+}
